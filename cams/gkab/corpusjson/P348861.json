@@ -1,0 +1,755 @@
+{
+  "type": "cdl",
+  "project": "cams/gkab",
+  "source": "http://oracc.org/cams/gkab",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T21:51:47",
+  "textid": "P348861",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P348861.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P348861.x417.1",
+          "label": "x417"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P348861.o.2",
+          "label": "o"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P348861.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P348861.U2",
+              "label": "o 1 - o 7",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.3",
+                  "n": "1",
+                  "label": "o 1"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194f2",
+                  "ref": "P348861.3.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.3.1.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}mu-ṣa",
+                  "id": "P348861.l194f3",
+                  "ref": "P348861.3.2",
+                  "inst": "mūṣa[(a stone)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}mu-ṣa=mūṣu[(a stone)//(a stone)]N'N$mūṣa",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}mu-ṣa",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.3.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "mu",
+                        "id": "P348861.3.2.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ṣa",
+                        "id": "P348861.3.2.2"
+                      }
+                    ],
+                    "cf": "mūṣu",
+                    "gw": "(a stone)",
+                    "sense": "(a stone)",
+                    "norm": "mūṣa",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.4",
+                  "n": "2",
+                  "label": "o 2"
+                },
+                {
+                  "node": "l",
+                  "frag": "[x]",
+                  "id": "P348861.l194f4",
+                  "ref": "P348861.4.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P348861.4.1.0",
+                        "breakStart": "1",
+                        "o": "]",
+                        "break": "missing",
+                        "breakEnd": "P348861.4.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}SAG.DU",
+                  "id": "P348861.l194f5",
+                  "ref": "P348861.4.2",
+                  "inst": "+qaqqadu[head//(a stone)]N$",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}SAG.DU=qaqqadu[head//(a stone)]N'N$qaqqadu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}SAG.DU",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.4.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "SAG",
+                            "id": "P348861.4.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DU",
+                            "id": "P348861.4.2.2",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "qaqqadu",
+                    "gw": "head",
+                    "sense": "(a stone)",
+                    "norm": "qaqqadu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.5",
+                  "n": "3",
+                  "label": "o 3"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194f6",
+                  "ref": "P348861.5.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.5.1.0",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}DUR₂.MI.NA.BAN₃.DA",
+                  "id": "P348861.l194f7",
+                  "ref": "P348861.5.2",
+                  "inst": "+turminabandû[(a type of mottled stone)]N$",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}DUR₂.MI.NA.BAN₃.DA=turminabandû[(a type of mottled stone)//(a type of mottled stone)]N'N$turminabandû",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}DUR₂.MI.NA.BAN₃.DA",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.5.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "DUR₂",
+                            "id": "P348861.5.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "MI",
+                            "id": "P348861.5.2.2",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "NA",
+                            "id": "P348861.5.2.3",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "BAN₃",
+                            "id": "P348861.5.2.4",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DA",
+                            "id": "P348861.5.2.5",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "turminabandû",
+                    "gw": "(a type of mottled stone)",
+                    "sense": "(a type of mottled stone)",
+                    "norm": "turminabandû",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.6",
+                  "n": "4",
+                  "label": "o 4"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194f8",
+                  "ref": "P348861.6.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.6.1.0",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}ŠUBA",
+                  "id": "P348861.l194f9",
+                  "ref": "P348861.6.2",
+                  "inst": "+šubû[(a semiprecious stone)]N$",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}ŠUBA=šubû[(a semiprecious stone)//(a semiprecious stone)]N'N$šubû",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}ŠUBA",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.6.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "ŠUBA",
+                        "id": "P348861.6.2.1",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "šubû",
+                    "gw": "(a semiprecious stone)",
+                    "sense": "(a semiprecious stone)",
+                    "norm": "šubû",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SIG₇",
+                  "id": "P348861.l194fa",
+                  "ref": "P348861.6.3",
+                  "inst": "arqu[yellow-green]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SIG₇=warqu[yellow-green//yellow-green]AJ'AJ$arqu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SIG₇",
+                    "gdl": [
+                      {
+                        "s": "SIG₇",
+                        "id": "P348861.6.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "warqu",
+                    "gw": "yellow-green",
+                    "sense": "yellow-green",
+                    "norm": "arqu",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.7",
+                  "n": "5",
+                  "label": "o 5"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194fb",
+                  "ref": "P348861.7.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.7.1.0",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}EN.GI.SA₆",
+                  "id": "P348861.l194fc",
+                  "ref": "P348861.7.2",
+                  "inst": "+engisû[(a stone)]N$",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}EN.GI.SA₆=engisû[(a stone)//(a stone)]N'N$engisû",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}EN.GI.SA₆",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.7.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "EN",
+                            "id": "P348861.7.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "GI",
+                            "id": "P348861.7.2.2",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "SA₆",
+                            "id": "P348861.7.2.3",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "engisû",
+                    "gw": "(a stone)",
+                    "sense": "(a stone)",
+                    "norm": "engisû",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.8",
+                  "n": "6",
+                  "label": "o 6"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194fd",
+                  "ref": "P348861.8.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.8.1.0",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}NI.BA",
+                  "id": "P348861.l194fe",
+                  "ref": "P348861.8.2",
+                  "inst": "yāniba[(a stone)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}NI.BA=yānibu[(a stone)//(a stone)]N'N$yāniba",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}NI.BA",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.8.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "NI",
+                            "id": "P348861.8.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "BA",
+                            "id": "P348861.8.2.2",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "yānibu",
+                    "gw": "(a stone)",
+                    "sense": "(a stone)",
+                    "norm": "yāniba",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P348861.9",
+                  "n": "7",
+                  "label": "o 7"
+                },
+                {
+                  "node": "l",
+                  "frag": "1",
+                  "id": "P348861.l194ff",
+                  "ref": "P348861.9.1",
+                  "inst": "n",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "1",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "n": "n",
+                        "sexified": "1(diš)",
+                        "form": "1",
+                        "id": "P348861.9.1.0",
+                        "seq": [
+                          {
+                            "r": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "pos": "n"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}GIG.{giš}MA.NU",
+                  "id": "P348861.l19500",
+                  "ref": "P348861.9.2",
+                  "cof-tails": "P348861.l19501",
+                  "inst": "+herṣu[fragment]N$hereṣ&+ēru[(a tree)]N$ēri",
+                  "sig": "@cams/gkab%akk-x-stdbab:{na₄}GIG.{giš}MA.NU=herṣu[fragment//fragment]N'N$hereṣ&&@cams/gkab%akk-x-stdbab:=ēru[(a tree)//(a tree)]N'N$ēri",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}GIG.{giš}MA.NU",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.9.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "GIG",
+                            "id": "P348861.9.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "det": "semantic",
+                            "pos": "pre",
+                            "seq": [
+                              {
+                                "v": "giš",
+                                "id": "P348861.9.2.2"
+                              }
+                            ]
+                          },
+                          {
+                            "s": "MA",
+                            "id": "P348861.9.2.3",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "NU",
+                            "id": "P348861.9.2.4",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "herṣu",
+                    "gw": "fragment",
+                    "sense": "fragment",
+                    "norm": "hereṣ",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{na₄}GIG.{giš}MA.NU",
+                  "id": "P348861.l19501",
+                  "ref": "P348861.9.2",
+                  "cof-head": "P348861.l19500",
+                  "inst": "+herṣu[fragment]N$hereṣ&+ēru[(a tree)]N$ēri",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{na₄}GIG.{giš}MA.NU",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "na₄",
+                            "id": "P348861.9.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "GIG",
+                            "id": "P348861.9.2.1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "det": "semantic",
+                            "pos": "pre",
+                            "seq": [
+                              {
+                                "v": "giš",
+                                "id": "P348861.9.2.2"
+                              }
+                            ]
+                          },
+                          {
+                            "s": "MA",
+                            "id": "P348861.9.2.3",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "NU",
+                            "id": "P348861.9.2.4",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ēru",
+                    "gw": "(a tree)",
+                    "sense": "(a tree)",
+                    "norm": "ēri",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "d",
+                  "subtype": "reverse",
+                  "type": "reverse",
+                  "ref": "P348861.r.10",
+                  "label": "r"
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P348861.11",
+                  "strict": "1",
+                  "extent": "0",
+                  "scope": "reverse",
+                  "state": "blank"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

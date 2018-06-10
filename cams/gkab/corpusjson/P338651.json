@@ -1,0 +1,750 @@
+{
+  "type": "cdl",
+  "project": "cams/gkab",
+  "source": "http://oracc.org/cams/gkab",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T21:50:30",
+  "textid": "P338651",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P338651.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P338651.x189.1",
+          "label": "x189"
+        },
+        {
+          "node": "d",
+          "subtype": "surface flake",
+          "type": "surface",
+          "ref": "P338651.flake.2",
+          "n": "flake",
+          "label": "flake"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P338651.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U2",
+              "label": "flake 1' - flake 1'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.3",
+                  "n": "1'",
+                  "label": "flake 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c87",
+                  "ref": "P338651.3.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.3.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.3.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SI.SA₂",
+                  "id": "P338651.l09c88",
+                  "ref": "P338651.3.2",
+                  "inst": "+ešēru[go well//thrive]V$iššir +.",
+                  "sig": "@cams/gkab%akk-x-stdbab:SI.SA₂=ešēru[go well//thrive]V'V$iššir",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SI.SA₂",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "SI",
+                            "id": "P338651.3.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "SA₂",
+                            "id": "P338651.3.2.1",
+                            "role": "logo",
+                            "logolang": "sux"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "ešēru",
+                    "gw": "go well",
+                    "sense": "thrive",
+                    "norm": "iššir",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U4",
+              "label": "flake 2' - flake 2'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.4",
+                  "n": "2'",
+                  "label": "flake 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c89",
+                  "ref": "P338651.4.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.4.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.4.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "BE",
+                  "id": "P338651.l09c8a",
+                  "ref": "P338651.4.2",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "$BE",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "BE",
+                        "id": "P338651.4.2.0",
+                        "role": "sign"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "u₂-sa-naq-ma",
+                  "id": "P338651.l09c8b",
+                  "ref": "P338651.4.3",
+                  "inst": "+sanāqu[check]V$usannaqma",
+                  "sig": "@cams/gkab%akk-x-stdbab:u₂-sa-naq-ma=sanāqu[check//check]V'V$usannaqma",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "u₂-sa-naq-ma",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u₂",
+                        "id": "P338651.4.3.0",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "sa",
+                        "id": "P338651.4.3.1",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "naq",
+                        "id": "P338651.4.3.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P338651.4.3.3"
+                      }
+                    ],
+                    "cf": "sanāqu",
+                    "gw": "check",
+                    "sense": "check",
+                    "norm": "usannaqma",
+                    "pos": "V",
+                    "epos": "V"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "BE",
+                  "id": "P338651.l09c8c",
+                  "ref": "P338651.4.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "$BE",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "BE",
+                        "id": "P338651.4.4.0",
+                        "role": "sign"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "NU",
+                  "id": "P338651.l09c8d",
+                  "ref": "P338651.4.5",
+                  "inst": "u +.",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "$NU",
+                    "gdl": [
+                      {
+                        "s": "NU",
+                        "id": "P338651.4.5.0",
+                        "role": "sign"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U6",
+              "label": "flake 3' - flake 3'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.5",
+                  "n": "3'",
+                  "label": "flake 3'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c8e",
+                  "ref": "P338651.5.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.5.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.5.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{lu₂}KUR₂",
+                  "id": "P338651.l09c8f",
+                  "ref": "P338651.5.2",
+                  "inst": "+nakru[enemy]N$nakru +.",
+                  "sig": "@cams/gkab%akk-x-stdbab:{lu₂}KUR₂=nakru[enemy//enemy]N'N$nakru",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "{lu₂}KUR₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "lu₂",
+                            "id": "P338651.5.2.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "KUR₂",
+                        "id": "P338651.5.2.1",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "nakru",
+                    "gw": "enemy",
+                    "sense": "enemy",
+                    "norm": "nakru",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U8",
+              "label": "flake 4' - flake 4'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.6",
+                  "n": "4'",
+                  "label": "flake 4'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...",
+                  "id": "P338651.l09c90",
+                  "ref": "P338651.6.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "["
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SIG₇]-MEŠ-ma",
+                  "id": "P338651.l09c91",
+                  "ref": "P338651.6.2",
+                  "inst": "+warqu[yellow-green]AJ$arqūma",
+                  "sig": "@cams/gkab%akk-x-stdbab:SIG₇-MEŠ-ma=warqu[yellow-green//yellow-green]AJ'AJ$arqūma",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SIG₇-MEŠ-ma",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SIG₇",
+                        "id": "P338651.6.2.0",
+                        "break": "missing",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "o": "]",
+                        "breakEnd": "P338651.6.1.0",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "MEŠ",
+                        "id": "P338651.6.2.1",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "ma",
+                        "id": "P338651.6.2.2"
+                      }
+                    ],
+                    "cf": "warqu",
+                    "gw": "yellow-green",
+                    "sense": "yellow-green",
+                    "norm": "arqūma",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "UŠ₂-MEŠ",
+                  "id": "P338651.l09c92",
+                  "ref": "P338651.6.3",
+                  "inst": "+mūtu[death]N$mūtū +.",
+                  "sig": "@cams/gkab%akk-x-stdbab:UŠ₂-MEŠ=mūtu[death//death]N'N$mūtū",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UŠ₂-MEŠ",
+                    "gdl": [
+                      {
+                        "s": "UŠ₂",
+                        "id": "P338651.6.3.0",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "delim": "-"
+                      },
+                      {
+                        "s": "MEŠ",
+                        "id": "P338651.6.3.1",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "mūtu",
+                    "gw": "death",
+                    "sense": "death",
+                    "norm": "mūtū",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U10",
+              "label": "flake 5' - flake 5'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.7",
+                  "n": "5'",
+                  "label": "flake 5'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c93",
+                  "ref": "P338651.7.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.7.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.7.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢u⸣",
+                  "id": "P338651.l09c94",
+                  "ref": "P338651.7.2",
+                  "inst": "u[and]",
+                  "sig": "@cams/gkab%akk-x-stdbab:u=u[and//and]CNJ'CNJ$u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "u",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "P338651.7.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "u",
+                    "gw": "and",
+                    "sense": "and",
+                    "norm": "u",
+                    "pos": "CNJ",
+                    "epos": "CNJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ŠEG₃",
+                  "id": "P338651.l09c95",
+                  "ref": "P338651.7.3",
+                  "inst": "zunnu[rain] +.",
+                  "sig": "@cams/gkab%akk-x-stdbab:ŠEG₃=zunnu[rain//rain]N'N$zunnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "ŠEG₃",
+                    "gdl": [
+                      {
+                        "s": "ŠEG₃",
+                        "id": "P338651.7.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "zunnu",
+                    "gw": "rain",
+                    "sense": "rain",
+                    "norm": "zunnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U12",
+              "label": "flake 6' - flake 6'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.8",
+                  "n": "6'",
+                  "label": "flake 6'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c96",
+                  "ref": "P338651.8.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.8.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.8.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢u",
+                  "id": "P338651.l09c97",
+                  "ref": "P338651.8.2",
+                  "inst": "u[and]",
+                  "sig": "@cams/gkab%akk-x-stdbab:u=u[and//and]CNJ'CNJ$u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "u",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "u",
+                        "id": "P338651.8.2.0",
+                        "break": "damaged",
+                        "ho": "1"
+                      }
+                    ],
+                    "cf": "u",
+                    "gw": "and",
+                    "sense": "and",
+                    "norm": "u",
+                    "pos": "CNJ",
+                    "epos": "CNJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "TUR⸣",
+                  "id": "P338651.l09c98",
+                  "ref": "P338651.8.3",
+                  "inst": "ṣehru[small]",
+                  "sig": "@cams/gkab%akk-x-stdbab:TUR=ṣehru[small//small]AJ'AJ$ṣehru",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "TUR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "TUR",
+                        "id": "P338651.8.3.0",
+                        "break": "damaged",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "ṣehru",
+                    "gw": "small",
+                    "sense": "small",
+                    "norm": "ṣehru",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "BE",
+                  "id": "P338651.l09c99",
+                  "ref": "P338651.8.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "$BE",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "BE",
+                        "id": "P338651.8.4.0",
+                        "role": "sign"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "NU",
+                  "id": "P338651.l09c9a",
+                  "ref": "P338651.8.5",
+                  "inst": "u +.",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "$NU",
+                    "gdl": [
+                      {
+                        "s": "NU",
+                        "id": "P338651.8.5.0",
+                        "role": "sign"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "c",
+              "type": "sentence",
+              "tag": ".",
+              "id": "P338651.U14",
+              "label": "flake 7' - flake 7'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P338651.9",
+                  "n": "7'",
+                  "label": "flake 7'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P338651.l09c9b",
+                  "ref": "P338651.9.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P338651.9.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P338651.9.1.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "⸢ILLU⸣",
+                  "id": "P338651.l09c9c",
+                  "ref": "P338651.9.2",
+                  "inst": "mīlu[flood] +.",
+                  "sig": "@cams/gkab%akk-x-stdbab:ILLU=mīlu[flood//flood]N'N$mīlu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "ILLU",
+                    "gdl": [
+                      {
+                        "s": "ILLU",
+                        "id": "P338651.9.2.0",
+                        "break": "damaged",
+                        "ho": "1",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "hc": "1"
+                      }
+                    ],
+                    "cf": "mīlu",
+                    "gw": "flood",
+                    "sense": "flood",
+                    "norm": "mīlu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                }
+              ]
+            },
+            {
+              "node": "d",
+              "type": "nonx",
+              "ref": "P338651.10",
+              "strict": "1",
+              "extent": "rest",
+              "scope": "surface",
+              "state": "missing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

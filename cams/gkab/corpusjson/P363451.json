@@ -1,0 +1,745 @@
+{
+  "type": "cdl",
+  "project": "cams/gkab",
+  "source": "http://oracc.org/cams/gkab",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T21:52:07",
+  "textid": "P363451",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P363451.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P363451.x60.1",
+          "label": "x60"
+        },
+        {
+          "node": "d",
+          "subtype": "surface flake",
+          "type": "surface",
+          "ref": "P363451.flake.2",
+          "n": "flake",
+          "label": "flake"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P363451.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P363451.U2",
+              "label": "flake 1 - flake 6",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.3",
+                  "n": "1",
+                  "label": "flake 1"
+                },
+                {
+                  "node": "d",
+                  "frag": "[*]",
+                  "type": "punct",
+                  "ref": "P363451.3.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l03665",
+                  "ref": "P363451.3.2",
+                  "inst": "+kamūnu[(a fungus)]N$",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.3.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.3.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l03666",
+                  "ref": "P363451.3.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.3.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "ina",
+                  "id": "P363451.l03667",
+                  "ref": "P363451.3.4",
+                  "inst": "ina[in]PRP",
+                  "sig": "@cams/gkab%akk-x-stdbab:ina=ina[in//in]PRP'PRP$ina",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "ina",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "ina",
+                        "id": "P363451.3.4.0"
+                      }
+                    ],
+                    "cf": "ina",
+                    "gw": "in",
+                    "sense": "in",
+                    "norm": "ina",
+                    "pos": "PRP",
+                    "epos": "PRP"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "x",
+                  "id": "P363451.l03668",
+                  "ref": "P363451.3.5",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "v": "x",
+                        "id": "P363451.3.5.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l03669",
+                  "ref": "P363451.3.6",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.3.6.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.3.6.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.4",
+                  "n": "2",
+                  "label": "flake 2"
+                },
+                {
+                  "node": "d",
+                  "frag": "[*]",
+                  "type": "punct",
+                  "ref": "P363451.4.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l0366a",
+                  "ref": "P363451.4.2",
+                  "inst": "kamūnu[(a fungus)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.4.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.4.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l0366b",
+                  "ref": "P363451.4.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.4.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l0366c",
+                  "ref": "P363451.4.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.4.4.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.4.4.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.5",
+                  "n": "3",
+                  "label": "flake 3"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P363451.5.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l0366d",
+                  "ref": "P363451.5.2",
+                  "inst": "kamūnu[(a fungus)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.5.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.5.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l0366e",
+                  "ref": "P363451.5.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.5.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l0366f",
+                  "ref": "P363451.5.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.5.4.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.5.4.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.6",
+                  "n": "4",
+                  "label": "flake 4"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P363451.6.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l03670",
+                  "ref": "P363451.6.2",
+                  "inst": "kamūnu[(a fungus)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.6.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.6.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l03671",
+                  "ref": "P363451.6.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.6.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l03672",
+                  "ref": "P363451.6.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.6.4.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.6.4.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.7",
+                  "n": "5",
+                  "label": "flake 5"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P363451.7.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l03673",
+                  "ref": "P363451.7.2",
+                  "inst": "kamūnu[(a fungus)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.7.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.7.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l03674",
+                  "ref": "P363451.7.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.7.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l03675",
+                  "ref": "P363451.7.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.7.4.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.7.4.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P363451.8",
+                  "n": "6",
+                  "label": "flake 6"
+                },
+                {
+                  "node": "d",
+                  "frag": "*",
+                  "type": "punct",
+                  "ref": "P363451.8.1",
+                  "lang": "akk-x-stdbab",
+                  "delim": " "
+                },
+                {
+                  "node": "l",
+                  "frag": "UZU.⸢DIR⸣",
+                  "id": "P363451.l03676",
+                  "ref": "P363451.8.2",
+                  "inst": "kamūnu[(a fungus)]N",
+                  "sig": "@cams/gkab%akk-x-stdbab:UZU.DIR=kamūnu[(a fungus)//(a fungus)]N'N$kamūnu",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "UZU.DIR",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "group": [
+                          {
+                            "s": "UZU",
+                            "id": "P363451.8.2.0",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "delim": "."
+                          },
+                          {
+                            "s": "DIR",
+                            "id": "P363451.8.2.1",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "cf": "kamūnu",
+                    "gw": "(a fungus)",
+                    "sense": "(a fungus)",
+                    "norm": "kamūnu",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "SA₅",
+                  "id": "P363451.l03677",
+                  "ref": "P363451.8.3",
+                  "inst": "sāmu[red]AJ",
+                  "sig": "@cams/gkab%akk-x-stdbab:SA₅=sāmu[red//red]AJ'AJ$sāmāti",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "SA₅",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "SA₅",
+                        "id": "P363451.8.3.0",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "sāmu",
+                    "gw": "red",
+                    "sense": "red",
+                    "norm": "sāmāti",
+                    "pos": "AJ",
+                    "epos": "AJ"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "[...]",
+                  "id": "P363451.l03678",
+                  "ref": "P363451.8.4",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-stdbab",
+                    "form": "x",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P363451.8.4.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "]",
+                        "breakEnd": "P363451.8.4.0"
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P363451.9",
+                  "strict": "1",
+                  "extent": "rest",
+                  "scope": "surface",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

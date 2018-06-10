@@ -1,0 +1,102 @@
+{
+  "type": "glossary",
+  "project": "cams/gkab",
+  "source": "http://oracc.org/cams/gkab",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T21:54:15",
+  "lang": "qpn-x-object",
+  "entries": [
+    {
+      "headword": "Ma-Ana[1]ON",
+      "id": "qpn-x-object.x000000",
+      "icount": "2",
+      "ipct": "100",
+      "xis": "qpn.r00000",
+      "cf": "Ma-Ana",
+      "gw": "1",
+      "pos": "ON",
+      "forms": [
+        {
+          "type": "form",
+          "id": "qpn-x-object.x000001",
+          "n": "{giš}MA₂.AN.NA",
+          "icount": "2",
+          "ipct": "100",
+          "xis": "qpn.r00000"
+        }
+      ],
+      "norms": [
+        {
+          "id": "qpn-x-object.x000002",
+          "icount": "2",
+          "ipct": "100",
+          "xis": "qpn.r00000",
+          "n": "Ma-Ana",
+          "forms": [
+            {
+              "type": "normform",
+              "id": "qpn-x-object.x000003",
+              "ref": "qpn-x-object.x000001",
+              "icount": "2",
+              "ipct": "100",
+              "xis": "qpn.r00000"
+            }
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "type": "sense",
+          "id": "qpn-x-object.x000004",
+          "n": "Ma-Ana[1//1]ON'ON",
+          "icount": "2",
+          "ipct": "100",
+          "xis": "qpn.r00000",
+          "pos": "ON",
+          "mng": "1",
+          "forms": [
+            {
+              "type": "form",
+              "id": "qpn-x-object.x000005",
+              "n": "%akk-x-stdbab:{giš}MA₂.AN.NA",
+              "icount": "2",
+              "ipct": "100",
+              "xis": "qpn.r00000"
+            }
+          ],
+          "norms": [
+            {
+              "id": "qpn-x-object.x000006",
+              "n": "Ma-Ana",
+              "icount": "2",
+              "ipct": "100",
+              "xis": "qpn.r00000"
+            }
+          ],
+          "sigs": [
+            {
+              "type": "sig",
+              "id": "qpn-x-object.x000007",
+              "sig": "@cams/gkab%akk-x-stdbab:{giš}MA₂.AN.NA=Ma-Ana[1//1]ON'ON$Ma-Ana",
+              "icount": "2",
+              "ipct": "100",
+              "xis": "qpn.r00000"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "instances": {
+    "qpn.r00000": [
+      "cams/gkab:P296523.20.9",
+      "cams/gkab:P296523.24.8"
+    ],
+    "qpn.r00000.p.s000": [
+      "cams/gkab:P296523.20.9",
+      "cams/gkab:P296523.24.8"
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "type": "cdl",
+  "project": "cams/gkab",
+  "source": "http://oracc.org/cams/gkab",
+  "license": "This data is released under the CC0 license",
+  "license-url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "more-info": "http://oracc.org/doc/opendata/",
+  "UTC-timestamp": "2017-06-21T21:50:37",
+  "textid": "P342192",
+  "cdl": [
+    {
+      "node": "c",
+      "type": "text",
+      "id": "P342192.U0",
+      "cdl": [
+        {
+          "node": "d",
+          "subtype": "tablet",
+          "type": "tablet",
+          "ref": "P342192.x127.1",
+          "label": "x127"
+        },
+        {
+          "node": "d",
+          "subtype": "obverse",
+          "type": "obverse",
+          "ref": "P342192.o.2",
+          "label": "o"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P342192.3",
+          "strict": "1",
+          "extent": "0",
+          "scope": "obverse",
+          "state": "missing"
+        },
+        {
+          "node": "d",
+          "subtype": "reverse",
+          "type": "reverse",
+          "ref": "P342192.r.4",
+          "label": "r"
+        },
+        {
+          "node": "d",
+          "type": "nonx",
+          "ref": "P342192.5",
+          "strict": "1",
+          "extent": "start",
+          "scope": "reverse",
+          "state": "missing"
+        },
+        {
+          "node": "c",
+          "type": "discourse",
+          "subtype": "body",
+          "id": "P342192.U1",
+          "cdl": [
+            {
+              "node": "c",
+              "type": "sentence",
+              "id": "P342192.U2",
+              "label": "r 1' - r 2'",
+              "cdl": [
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P342192.6",
+                  "n": "1'",
+                  "label": "r 1'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...",
+                  "id": "P342192.l068c1",
+                  "ref": "P342192.6.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P342192.6.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "["
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "A",
+                  "id": "P342192.l068c2",
+                  "ref": "P342192.6.2",
+                  "inst": "apil[descendant]",
+                  "sig": "@cams/gkab%akk-x-ltebab:A=aplu[son//descendant]N'N$apil",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "A",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "A",
+                        "id": "P342192.6.2.0",
+                        "break": "missing",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "aplu",
+                    "gw": "son",
+                    "sense": "descendant",
+                    "norm": "apil",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{m]}⸢ŠEŠ⸣-ʾ-u₂-tu₂",
+                  "id": "P342192.l068c3",
+                  "ref": "P342192.6.3",
+                  "inst": "Ahʾutu[]LN",
+                  "sig": "@cams/gkab%akk-x-ltebab:{m}ŠEŠ-ʾ-u₂-tu₂=Ahʾutu[1//1]LN'LN$Ahʾutu",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "{m}ŠEŠ-ʾ-u₂-tu₂",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "m",
+                            "id": "P342192.6.3.0",
+                            "break": "missing",
+                            "o": "]",
+                            "breakEnd": "P342192.6.1.0"
+                          }
+                        ]
+                      },
+                      {
+                        "s": "ŠEŠ",
+                        "id": "P342192.6.3.1",
+                        "break": "damaged",
+                        "ho": "1",
+                        "role": "logo",
+                        "logolang": "sux",
+                        "delim": "-",
+                        "hc": "1"
+                      },
+                      {
+                        "v": "ʾ",
+                        "id": "P342192.6.3.2",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "u₂",
+                        "id": "P342192.6.3.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "tu₂",
+                        "id": "P342192.6.3.4"
+                      }
+                    ],
+                    "cf": "Ahʾutu",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm": "Ahʾutu",
+                    "pos": "LN",
+                    "epos": "LN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "line-start",
+                  "ref": "P342192.7",
+                  "n": "2'",
+                  "label": "r 2'"
+                },
+                {
+                  "node": "l",
+                  "frag": "[...",
+                  "id": "P342192.l068c4",
+                  "ref": "P342192.7.1",
+                  "inst": "u",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "x",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "x": "ellipsis",
+                        "id": "P342192.7.1.0",
+                        "breakStart": "1",
+                        "break": "missing",
+                        "o": "["
+                      }
+                    ],
+                    "pos": "u"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "A",
+                  "id": "P342192.l068c5",
+                  "ref": "P342192.7.2",
+                  "inst": "apil[descendant]",
+                  "sig": "@cams/gkab%akk-x-ltebab:A=aplu[son//descendant]N'N$apil",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "A",
+                    "delim": " ",
+                    "gdl": [
+                      {
+                        "s": "A",
+                        "id": "P342192.7.2.0",
+                        "break": "missing",
+                        "role": "logo",
+                        "logolang": "sux"
+                      }
+                    ],
+                    "cf": "aplu",
+                    "gw": "son",
+                    "sense": "descendant",
+                    "norm": "apil",
+                    "pos": "N",
+                    "epos": "N"
+                  }
+                },
+                {
+                  "node": "l",
+                  "frag": "{m}E₂].⸢KUR⸣-za-kir",
+                  "id": "P342192.l068c6",
+                  "ref": "P342192.7.3",
+                  "inst": "Ekur-zakir[]LN",
+                  "sig": "@cams/gkab%akk-x-ltebab:{m}E₂.KUR-za-kir=Ekur-zakir[1//1]LN'LN$Ekur-zakir",
+                  "f": {
+                    "lang": "akk-x-ltebab",
+                    "form": "{m}E₂.KUR-za-kir",
+                    "gdl": [
+                      {
+                        "det": "semantic",
+                        "pos": "pre",
+                        "seq": [
+                          {
+                            "v": "m",
+                            "id": "P342192.7.3.0",
+                            "break": "missing"
+                          }
+                        ]
+                      },
+                      {
+                        "gg": "logo",
+                        "gdl_type": "logo",
+                        "delim": "--",
+                        "gdl_em": "1",
+                        "group": [
+                          {
+                            "s": "E₂",
+                            "id": "P342192.7.3.1",
+                            "break": "missing",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "o": "]",
+                            "breakEnd": "P342192.7.1.0",
+                            "delim": "."
+                          },
+                          {
+                            "s": "KUR",
+                            "id": "P342192.7.3.2",
+                            "break": "damaged",
+                            "ho": "1",
+                            "role": "logo",
+                            "logolang": "sux",
+                            "hc": "1"
+                          }
+                        ]
+                      },
+                      {
+                        "v": "za",
+                        "id": "P342192.7.3.3",
+                        "delim": "-"
+                      },
+                      {
+                        "v": "kir",
+                        "id": "P342192.7.3.4"
+                      }
+                    ],
+                    "cf": "Ekur-zakir",
+                    "gw": "1",
+                    "sense": "1",
+                    "norm": "Ekur-zakir",
+                    "pos": "LN",
+                    "epos": "LN"
+                  }
+                },
+                {
+                  "node": "d",
+                  "type": "nonx",
+                  "ref": "P342192.8",
+                  "strict": "1",
+                  "extent": "end",
+                  "scope": "reverse",
+                  "state": "missing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
